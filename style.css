@@ -1,0 +1,27 @@
+* {font-family: 'Bilbo Swash Caps', cursive;}
+
+body {
+    background-image: url("balrog.jpg");
+}
+
+p {
+    font-size:500%;
+    text-align: center;
+}
+
+#button1 {
+    font-size: 250%;
+
+    position: absolute;
+    background-image: url("gandalf.jpg");
+    
+    width: 150px;
+    height: 150px;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* position: absolute; - új layer csinál, bal felső sarokhoz igazítja, nem előző elemhez képest, nem volt ilyen előtte
+    %-ok, képernyőre nézik, előtte px volt
+    transform: translate(-50%, -50%); - % csak a bal felső sarkát rakja oda, ezzel full középre, nem volt ilyen */
+}
